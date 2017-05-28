@@ -20,7 +20,7 @@
             <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required>
             <br>
             <label for="tel">Telephone: </label>
-            <input type="tel" pattern="^\d{1}-\d{3}-\d{3}-\d{4}$" placeholder="1-234-567-8910" required>
+            <input type="tel" id="tel" pattern="^\d{1}-\d{3}-\d{3}-\d{4}$" placeholder="1-234-567-8910" required>
             <br>
             <label for="email">Email: </label>
             <input type="email" name="email" id="email" multiple minlength="3" maxlength="46" placeholder="Enter your email address" required>
@@ -28,19 +28,18 @@
         <fieldset>
             <legend>Books</legend>
             <label for="books">Please select the book: </label>
-            <input list="books" name="books">
+            <input list="books">
             
             <datalist id="books">
-                <option value="--Select the book--" active></option>
                 <option value="HTML5 od podstaw"></option>
                 <option value="HTML5 dla zaawansowanych"></option>
                 <option value="CSS3 od podstaw"></option>
                 <option value="CSS3 dla zaawansowanych"></option>
                 <option value="JavaScript for web dev"></option>
             </datalist>
-            
+            <br>
             <label for="qty">Please select quantity: </label>
-            <input type="number" name="qty" min="1" max="5">
+            <input type="number" id="qty" name="qty" min="1" max="5">
         </fieldset>
         <input type="submit" name="btn" id="btn" value="Submit">
     </form>
