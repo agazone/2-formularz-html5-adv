@@ -1,0 +1,44 @@
+*{
+    font-family: "Open Sans";
+    color: #2e2d2d;
+}
+
+h2{
+    color:#2d2d65;
+}
+
+h3{
+    color: #785fbc;
+}
+
+body{
+    background-color: #e3a32d;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+fieldset{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #785FBC;
+}
+
+legend{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+input[type=text], input[type=tel], input[type=email], input[name="books"]{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+}
+
+input[type=number]{
+    float:right;
+    margin-right: 40px;
+}
+
+label{
+    padding-left: 10px;
+}
