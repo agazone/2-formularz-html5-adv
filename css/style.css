@@ -35,10 +35,26 @@ input[type=text], input[type=tel], input[type=email], input[name="books"]{
 }
 
 input[type=number]{
-    float:right;
-    margin-right: 40px;
+    float: right;
+    margin-right: 48px;
 }
 
 label{
     padding-left: 10px;
+}
+
+input[list="books"]{
+    width: 80%;
+    float: left;
+    margin: 10px;
+
+}
+
+#btn{
+    float: right;
+    padding: 10px;
+    background-color: gray;
+    margin-left: 10px;
+    margin-right:20px;
+    width: 100px;
 }
