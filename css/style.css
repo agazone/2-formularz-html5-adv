@@ -36,18 +36,16 @@ input[type=text], input[type=tel], input[type=email], input[name="books"]{
 
 input[type=number]{
     float: right;
-    margin-right: 48px;
 }
 
 label{
     padding-left: 10px;
 }
 
-input[list="books"]{
+input[type=datalist]{
     width: 80%;
     float: left;
     margin: 10px;
-
 }
 
 #btn{
