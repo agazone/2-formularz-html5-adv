@@ -36,6 +36,7 @@ input[type=text], input[type=tel], input[type=email], input[name="books"]{
 
 input[type=number]{
     float: right;
+    margin-right: 38px;
 }
 
 label{
